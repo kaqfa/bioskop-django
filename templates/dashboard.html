@@ -1,0 +1,29 @@
+{% extends 'index.html' %} {% load static %} {% block content %}
+<h2>Tayang Sekarang</h2>
+<div class="row">
+    {% for data in object_list %} {% if data.in_show == 1 %}
+    <div class="col-md-4" style="border: 1px solid #ccc; padding: 3px 5px;">
+        <a href="">
+            <img src="{{data.cover.url}}" class="img-responsive" alt="">
+            <h3>{{data.title}}</h3>
+            <div> tayang : {{data.show_from|date:'j b'}} - {{data.show_until|date:'j b'}}</div>
+        </a>
+    </div>
+    {% endif %} {% endfor %}
+</div>
+
+<hr>
+<div class="row">
+    <h2>Semua Film</h2>
+    {% for data in object_list %}
+    <div class="col-md-4" style="border: 1px solid #ccc; padding: 3px 5px;">
+        <a href="">
+            <img src="{{data.cover.url}}" class="img-responsive" alt="">
+            <h3>{{data.title}}</h3>
+            <div> tayang : {{data.show_from|date:'j b'}} - {{data.show_until|date:'j b'}}</div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+    <h3>List Top Up yang pernah anda Upload</h3>
+    <hr>
+
+    <table class="table table-striped">
+        <tr>
+            <th>Tanggal</th>
+            <th>Jumlah</th>
+            <th>Bukti Bayar</th>
+            <th>Status</th>
+        </tr>
+        {% for data in object_list %}
+            <tr>
+                <td>{{ data.uploaded_at }}</td>
+                <td>{{ data.amount }}</td>
+                <td><a href="{{ data.receipt.url }}" target="_blank">Tampil</a></td>
+                <td>{{ data.get_status_display }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

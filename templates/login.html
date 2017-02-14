@@ -1,0 +1,12 @@
+{% extends 'index.html' %} {% block sidebar %}
+<div class="panel panel-default">
+    <div class="panel-heading">Form Login</div>
+    <div class="panel-body">
+        <form action="" method="post">
+            {% csrf_token %} {{ form.as_p }}
+            <button type="submit" class="btn btn-success">Login</button>
+            <a href="{% url 'index' %}" class="btn btn-primary"> Kembali Ke Beranda </a>
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "index.html" %} {% load crispy_forms_tags %} {% block content %}
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %} {{userform|crispy}} {{memberform|crispy}}
+    <button class="btn btn-success" type="submit">Daftar Member</button>
+    <a href="{% url 'index' %}" class="btn">Kembali ke Dashboard</a>
+</form>
+
+{% endblock content %}

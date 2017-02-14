@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	member/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	movie/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170206_0410.py	movie/migrations/0002_auto_20170206_0410.py	1;"	kind:file	line:1
+0002_auto_20170208_0457.py	member/migrations/0002_auto_20170208_0457.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	tutorial_bioskop/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	tutorial_bioskop/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:92
+AppConfig	member/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	movie/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	tutorial_bioskop/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CRISPY_TEMPLATE_PACK	tutorial_bioskop/settings.py	/^CRISPY_TEMPLATE_PACK = 'bootstrap3'$/;"	kind:variable	line:45
+DATABASES	tutorial_bioskop/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	tutorial_bioskop/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DetailView	movie/views.py	/^from django.views.generic import ListView, DetailView, TemplateView$/;"	kind:namespace	line:2
+Genre	movie/admin.py	/^from .models import Genre, Movie$/;"	kind:namespace	line:2
+Genre	movie/models.py	/^class Genre(models.Model):$/;"	kind:class	line:5
+GenreAdmin	movie/admin.py	/^class GenreAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+INSTALLED_APPS	tutorial_bioskop/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IndexView	movie/views.py	/^class IndexView(ListView):$/;"	kind:class	line:5
+IndexView	tutorial_bioskop/urls.py	/^from movie.views import IndexView$/;"	kind:namespace	line:21
+LANGUAGE_CODE	tutorial_bioskop/settings.py	/^LANGUAGE_CODE = 'id'$/;"	kind:variable	line:111
+LOGIN_REDIRECT_URL	tutorial_bioskop/settings.py	/^LOGIN_REDIRECT_URL = 'index'$/;"	kind:variable	line:133
+ListView	movie/views.py	/^from django.views.generic import ListView, DetailView, TemplateView$/;"	kind:namespace	line:2
+MEDIA_ROOT	tutorial_bioskop/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media')$/;"	kind:variable	line:131
+MEDIA_URL	tutorial_bioskop/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:130
+MIDDLEWARE	tutorial_bioskop/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:47
+Member	member/admin.py	/^from .models import TopUp, Member$/;"	kind:namespace	line:2
+Member	member/forms.py	/^from member.models import Member$/;"	kind:namespace	line:4
+Member	member/models.py	/^class Member(models.Model):$/;"	kind:class	line:5
+MemberAdmin	member/admin.py	/^class MemberAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+MemberConfig	member/apps.py	/^class MemberConfig(AppConfig):$/;"	kind:class	line:4
+MemberForm	member/forms.py	/^class MemberForm(ModelForm):$/;"	kind:class	line:36
+MemberForm	member/views.py	/^from .forms import UserForm, MemberForm$/;"	kind:namespace	line:2
+Meta	member/forms.py	/^    class Meta:$/;"	kind:class	line:15
+Meta	member/forms.py	/^    class Meta:$/;"	kind:class	line:38
+Migration	member/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	member/migrations/0002_auto_20170208_0457.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	movie/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	movie/migrations/0002_auto_20170206_0410.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+ModelForm	member/forms.py	/^from django.forms import ModelForm$/;"	kind:namespace	line:1
+Movie	movie/admin.py	/^from .models import Genre, Movie$/;"	kind:namespace	line:2
+Movie	movie/models.py	/^class Movie(models.Model):$/;"	kind:class	line:16
+Movie	movie/views.py	/^from .models import Movie$/;"	kind:namespace	line:3
+MovieAdmin	movie/admin.py	/^class MovieAdmin(admin.ModelAdmin):$/;"	kind:class	line:8
+MovieConfig	movie/apps.py	/^class MovieConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	tutorial_bioskop/settings.py	/^ROOT_URLCONF = 'tutorial_bioskop.urls'$/;"	kind:variable	line:57
+SECRET_KEY	tutorial_bioskop/settings.py	/^SECRET_KEY = 'f+6ijtwvwy8ra!tw3*eke(!pq5*ap7(q1q05jtlxuil5!9b1kf'$/;"	kind:variable	line:23
+STATICFILES_DIRS	tutorial_bioskop/settings.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:126
+STATIC_URL	tutorial_bioskop/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:125
+STATUS_CHOICES	member/models.py	/^    STATUS_CHOICES = (('p', 'pending'), ('v', 'valid'), ('i', 'invalid'))$/;"	kind:variable	line:18
+TEMPLATES	tutorial_bioskop/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:59
+TIME_ZONE	tutorial_bioskop/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:113
+TemplateView	movie/views.py	/^from django.views.generic import ListView, DetailView, TemplateView$/;"	kind:namespace	line:2
+TestCase	member/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	movie/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TopUp	member/admin.py	/^from .models import TopUp, Member$/;"	kind:namespace	line:2
+TopUp	member/models.py	/^class TopUp(models.Model):$/;"	kind:class	line:17
+TopUpAdmin	member/admin.py	/^class TopUpAdmin(admin.ModelAdmin):$/;"	kind:class	line:8
+USE_I18N	tutorial_bioskop/settings.py	/^USE_I18N = True$/;"	kind:variable	line:115
+USE_L10N	tutorial_bioskop/settings.py	/^USE_L10N = True$/;"	kind:variable	line:117
+USE_TZ	tutorial_bioskop/settings.py	/^USE_TZ = True$/;"	kind:variable	line:119
+User	member/forms.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:3
+User	member/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+User	movie/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+UserForm	member/forms.py	/^class UserForm(ModelForm):$/;"	kind:class	line:7
+UserForm	member/views.py	/^from .forms import UserForm, MemberForm$/;"	kind:namespace	line:2
+WSGI_APPLICATION	tutorial_bioskop/settings.py	/^WSGI_APPLICATION = 'tutorial_bioskop.wsgi.application'$/;"	kind:variable	line:75
+__init__.py	member/__init__.py	1;"	kind:file	line:1
+__init__.py	member/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	movie/__init__.py	1;"	kind:file	line:1
+__init__.py	movie/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	tutorial_bioskop/__init__.py	1;"	kind:file	line:1
+__str__	member/models.py	/^    def __str__(self):$/;"	kind:member	line:13
+__str__	movie/models.py	/^    def __str__(self):$/;"	kind:member	line:28
+__str__	movie/models.py	/^    def __str__(self):$/;"	kind:member	line:9
+__unicode__	movie/models.py	/^    def __unicode__(self):$/;"	kind:member	line:12
+address	member/models.py	/^    address = models.CharField("Alamat", max_length=200, null=True, blank=True)$/;"	kind:variable	line:7
+admin	member/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	movie/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	tutorial_bioskop/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	member/admin.py	1;"	kind:file	line:1
+admin.py	movie/admin.py	1;"	kind:file	line:1
+amount	member/models.py	/^    amount = models.IntegerField()$/;"	kind:variable	line:21
+application	tutorial_bioskop/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	member/apps.py	1;"	kind:file	line:1
+apps.py	movie/apps.py	1;"	kind:file	line:1
+auth_views	tutorial_bioskop/urls.py	/^from django.contrib.auth import views as auth_views$/;"	kind:namespace	line:20
+checked_by	member/models.py	/^    checked_by = models.ForeignKey(User, null=True, blank=True)$/;"	kind:variable	line:26
+clean	member/forms.py	/^    def clean(self):$/;"	kind:member	line:27
+clean_username	member/forms.py	/^    def clean_username(self):$/;"	kind:member	line:20
+cover	movie/models.py	/^    cover = models.ImageField(upload_to="movie_covers\/", blank=True,$/;"	kind:variable	line:18
+created_at	movie/models.py	/^    created_at = models.DateField(auto_now_add=True)$/;"	kind:variable	line:25
+datetime	movie/models.py	/^from datetime import datetime$/;"	kind:namespace	line:3
+db	member/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	member/migrations/0002_auto_20170208_0457.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	movie/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+db	movie/migrations/0002_auto_20170206_0410.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+default	movie/models.py	/^                              default="no-image.png")$/;"	kind:variable	line:19
+deletion	member/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	member/migrations/0002_auto_20170208_0457.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	movie/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	movie/migrations/0002_auto_20170206_0410.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+dependencies	member/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	member/migrations/0002_auto_20170208_0457.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	movie/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	movie/migrations/0002_auto_20170206_0410.py	/^    dependencies = [$/;"	kind:variable	line:12
+description	movie/models.py	/^    description = models.TextField("deskripsi", null=True, blank=True)$/;"	kind:variable	line:20
+description	movie/models.py	/^    description = models.TextField(null=True, blank=True)$/;"	kind:variable	line:7
+django	manage.py	/^            import django$/;"	kind:namespace	line:14
+django	member/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	member/migrations/0002_auto_20170208_0457.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	movie/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	movie/migrations/0002_auto_20170206_0410.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+execute_from_command_line	manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+field	member/migrations/0002_auto_20170208_0457.py	/^            field=models.CharField(blank=True, max_length=200, null=True, verbose_name='Alamat'),$/;"	kind:variable	line:33
+field	member/migrations/0002_auto_20170208_0457.py	/^            field=models.CharField(max_length=20, verbose_name='Nomor Telepon'),$/;"	kind:variable	line:38
+field	member/migrations/0002_auto_20170208_0457.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='member.Member'),$/;"	kind:variable	line:48
+field	member/migrations/0002_auto_20170208_0457.py	/^            field=models.ImageField(blank=True, null=True, upload_to='prof_pics\/', verbose_name='Foto Profil'),$/;"	kind:variable	line:43
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.CharField(max_length=200, verbose_name='judul'),$/;"	kind:variable	line:45
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.DateField(verbose_name='tayang dari'),$/;"	kind:variable	line:35
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.DateField(verbose_name='tayang hingga'),$/;"	kind:variable	line:40
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL, verbose_name='yang posting'),$/;"	kind:variable	line:30
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.ImageField(blank=True, default='no-image.png', upload_to='movie_covers\/'),$/;"	kind:variable	line:20
+field	movie/migrations/0002_auto_20170206_0410.py	/^            field=models.TextField(blank=True, null=True, verbose_name='deskripsi'),$/;"	kind:variable	line:25
+fields	member/admin.py	/^    fields = ['member', 'amount', 'receipt', 'status']$/;"	kind:variable	line:11
+fields	member/forms.py	/^        fields = ('prof_pic', 'address', 'phone')$/;"	kind:variable	line:40
+fields	member/forms.py	/^        fields = ('username', 'password1', 'password2', 'first_name',$/;"	kind:variable	line:17
+fields	member/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	member/migrations/0002_auto_20170208_0457.py	/^            fields=[$/;"	kind:variable	line:20
+fields	movie/admin.py	/^    fields = ('title', 'cover', 'description', 'show_from', 'show_until', 'genres')$/;"	kind:variable	line:11
+fields	movie/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	movie/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:29
+forms	member/forms.py	/^from django import forms$/;"	kind:namespace	line:2
+forms.py	member/forms.py	1;"	kind:file	line:1
+genres	movie/models.py	/^    genres = models.ManyToManyField(Genre)$/;"	kind:variable	line:23
+get_wsgi_application	tutorial_bioskop/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+has_add_permission	member/admin.py	/^    def has_add_permission(self, request):$/;"	kind:member	line:18
+in_show	movie/models.py	/^    def in_show(self):$/;"	kind:member	line:38
+initial	member/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+initial	movie/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+label	member/forms.py	/^                                label="konfirmasi password")$/;"	kind:variable	line:13
+label	member/forms.py	/^                                label="password")$/;"	kind:variable	line:10
+list_display	member/admin.py	/^    list_display = ['member', 'amount', 'receipt', 'status',$/;"	kind:variable	line:9
+list_display	member/admin.py	/^    list_display = ['user', 'phone', 'address']$/;"	kind:variable	line:6
+list_display	movie/admin.py	/^    list_display = ('title', 'cover', 'show_genres', 'posted_by', "show_status",$/;"	kind:variable	line:9
+manage.py	manage.py	1;"	kind:file	line:1
+member	member/models.py	/^    member = models.ForeignKey(Member)$/;"	kind:variable	line:20
+migrations	member/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	member/migrations/0002_auto_20170208_0457.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	movie/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+migrations	movie/migrations/0002_auto_20170206_0410.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+model	member/forms.py	/^        model = Member$/;"	kind:variable	line:39
+model	member/forms.py	/^        model = User$/;"	kind:variable	line:16
+model	movie/views.py	/^    model = Movie$/;"	kind:variable	line:6
+model_name	member/migrations/0002_auto_20170208_0457.py	/^            model_name='member',$/;"	kind:variable	line:31
+model_name	member/migrations/0002_auto_20170208_0457.py	/^            model_name='member',$/;"	kind:variable	line:36
+model_name	member/migrations/0002_auto_20170208_0457.py	/^            model_name='member',$/;"	kind:variable	line:41
+model_name	member/migrations/0002_auto_20170208_0457.py	/^            model_name='topup',$/;"	kind:variable	line:46
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:18
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:23
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:28
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:33
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:38
+model_name	movie/migrations/0002_auto_20170206_0410.py	/^            model_name='movie',$/;"	kind:variable	line:43
+models	member/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	member/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	member/migrations/0002_auto_20170208_0457.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	member/migrations/0002_auto_20170208_0457.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	member/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	movie/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	movie/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	movie/migrations/0002_auto_20170206_0410.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	movie/migrations/0002_auto_20170206_0410.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	movie/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	member/models.py	1;"	kind:file	line:1
+models.py	movie/models.py	1;"	kind:file	line:1
+name	member/apps.py	/^    name = 'member'$/;"	kind:variable	line:5
+name	member/migrations/0001_initial.py	/^            name='Member',$/;"	kind:variable	line:20
+name	member/migrations/0002_auto_20170208_0457.py	/^            name='TopUp',$/;"	kind:variable	line:19
+name	member/migrations/0002_auto_20170208_0457.py	/^            name='address',$/;"	kind:variable	line:32
+name	member/migrations/0002_auto_20170208_0457.py	/^            name='member',$/;"	kind:variable	line:47
+name	member/migrations/0002_auto_20170208_0457.py	/^            name='phone',$/;"	kind:variable	line:37
+name	member/migrations/0002_auto_20170208_0457.py	/^            name='prof_pic',$/;"	kind:variable	line:42
+name	movie/apps.py	/^    name = 'movie'$/;"	kind:variable	line:5
+name	movie/migrations/0001_initial.py	/^            name='Genre',$/;"	kind:variable	line:20
+name	movie/migrations/0001_initial.py	/^            name='Movie',$/;"	kind:variable	line:28
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='cover',$/;"	kind:variable	line:19
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='description',$/;"	kind:variable	line:24
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='posted_by',$/;"	kind:variable	line:29
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='show_from',$/;"	kind:variable	line:34
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='show_until',$/;"	kind:variable	line:39
+name	movie/migrations/0002_auto_20170206_0410.py	/^            name='title',$/;"	kind:variable	line:44
+operations	member/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	member/migrations/0002_auto_20170208_0457.py	/^    operations = [$/;"	kind:variable	line:17
+operations	movie/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	movie/migrations/0002_auto_20170206_0410.py	/^    operations = [$/;"	kind:variable	line:16
+os	manage.py	/^import os$/;"	kind:namespace	line:2
+os	tutorial_bioskop/settings.py	/^import os$/;"	kind:namespace	line:13
+os	tutorial_bioskop/wsgi.py	/^import os$/;"	kind:namespace	line:10
+password1	member/forms.py	/^    password1 = forms.CharField(max_length=40,$/;"	kind:variable	line:8
+password2	member/forms.py	/^    password2 = forms.CharField(max_length=40,$/;"	kind:variable	line:11
+phone	member/models.py	/^    phone = models.CharField("Nomor Telepon", max_length=20)$/;"	kind:variable	line:8
+posted_by	movie/models.py	/^    posted_by = models.ForeignKey(User, verbose_name="yang posting")$/;"	kind:variable	line:24
+prof_pic	member/models.py	/^    prof_pic = models.ImageField("Foto Profil", upload_to='prof_pics\/',$/;"	kind:variable	line:9
+readonly_fields	member/admin.py	/^    readonly_fields = ['member', 'amount', 'receipt']$/;"	kind:variable	line:12
+receipt	member/models.py	/^    receipt = models.ImageField("Bukti Bayar", upload_to='receipts\/')$/;"	kind:variable	line:22
+redirect	member/views.py	/^from django.shortcuts import render, redirect$/;"	kind:namespace	line:1
+register	member/views.py	/^def register(request):$/;"	kind:function	line:5
+register	tutorial_bioskop/urls.py	/^from member.views import register$/;"	kind:namespace	line:22
+register_at	member/models.py	/^    register_at = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:11
+render	member/views.py	/^from django.shortcuts import render, redirect$/;"	kind:namespace	line:1
+render	movie/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+save_model	member/admin.py	/^    def save_model(self, request, obj, form, change):$/;"	kind:member	line:14
+save_model	movie/admin.py	/^    def save_model(self, request, obj, form, change):$/;"	kind:member	line:13
+settings	member/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	member/migrations/0002_auto_20170208_0457.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	movie/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	movie/migrations/0002_auto_20170206_0410.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings	tutorial_bioskop/urls.py	/^from django.conf import settings$/;"	kind:namespace	line:18
+settings.py	tutorial_bioskop/settings.py	1;"	kind:file	line:1
+show_from	movie/models.py	/^    show_from = models.DateField("tayang dari")$/;"	kind:variable	line:21
+show_genres	movie/models.py	/^    def show_genres(self):$/;"	kind:member	line:31
+show_status	movie/models.py	/^    def show_status(self):$/;"	kind:member	line:47
+show_until	movie/models.py	/^    show_until = models.DateField("tayang hingga")$/;"	kind:variable	line:22
+static	tutorial_bioskop/urls.py	/^from django.conf.urls.static import static$/;"	kind:namespace	line:19
+status	member/models.py	/^    status = models.CharField(max_length=1, choices=STATUS_CHOICES)$/;"	kind:variable	line:23
+sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+template_name	movie/views.py	/^    template_name = 'dashboard.html'$/;"	kind:variable	line:7
+tests.py	member/tests.py	1;"	kind:file	line:1
+tests.py	movie/tests.py	1;"	kind:file	line:1
+title	movie/models.py	/^    title = models.CharField(max_length=200)$/;"	kind:variable	line:6
+title	movie/models.py	/^    title = models.CharField(max_length=200, verbose_name="judul")$/;"	kind:variable	line:17
+unicode_literals	member/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	member/migrations/0002_auto_20170208_0457.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	movie/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	movie/migrations/0002_auto_20170206_0410.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+updated_at	movie/models.py	/^    updated_at = models.DateField(auto_now=True)$/;"	kind:variable	line:26
+uploaded_at	member/models.py	/^    uploaded_at = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:24
+url	tutorial_bioskop/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	tutorial_bioskop/urls.py	/^urlpatterns = [$/;"	kind:variable	line:24
+urls.py	tutorial_bioskop/urls.py	1;"	kind:file	line:1
+user	member/models.py	/^    user = models.OneToOneField(User)$/;"	kind:variable	line:6
+validated_at	member/models.py	/^    validated_at = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:25
+views.py	member/views.py	1;"	kind:file	line:1
+views.py	movie/views.py	1;"	kind:file	line:1
+widget	member/forms.py	/^                                widget=forms.PasswordInput,$/;"	kind:variable	line:12
+widget	member/forms.py	/^                                widget=forms.PasswordInput,$/;"	kind:variable	line:9
+wsgi.py	tutorial_bioskop/wsgi.py	1;"	kind:file	line:1
