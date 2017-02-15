@@ -135,18 +135,14 @@ urlpatterns = [
 
 - Generate aplikasi baru dengan menjalankan perintah di terminal
 ```
-> python manage.py startapp member
+python manage.py startapp member
 ```
-- Tambahkan model untuk member yang berrelasi *one-to-one* dengan tabel
-  ```django.contrib.auth.models.User```
+- Tambahkan model untuk member yang berrelasi *one-to-one* dengan tabel ```django.contrib.auth.models.User```
 - Buat file ```forms.py``` pada aplikasi member.
 - Tambahkan 2 form yaitu ```UserForm``` dan ```MemberForm```
-- Tambahkan attribute ```password```, ```pass_confirm```, dan ```email``` 
-  untuk disesuaikan.
-- Override method ```clean_usernam(self)``` untuk mengecek username yang
-  diinputkan belum pernah digunakan
-- Override method ```clean(self)``` untuk memastikan password dan 
-    konfirmasinya sudah sama
+- Tambahkan attribute ```password```, ```pass_confirm```, dan ```email``` untuk disesuaikan.
+- Override method ```clean_username(self)``` untuk mengecek username yang diinputkan belum pernah digunakan
+- Override method ```clean(self)``` untuk memastikan password dan konfirmasinya sudah sama
 - untuk ```MemberForm``` tambah saja field yang ingi dipakai
 - buat template untuk register dan tambahkan form
 - buat FBV untuk register sebagai berikut:
@@ -206,8 +202,8 @@ def register(request):
 
 ### Admin Action untuk Validate & Invalidate
 
-- Pada ```TopUpAdmin``` tambahkan method ```check_validate``` dan 
-  ```check_invalidate```
+- Pada ```TopUpAdmin``` tambahkan method ```check_validate``` dan ```check_invalidate```
+
 ```python
     def accept_topup(self, request, queryset):
         queryset.update(status='a')
@@ -217,6 +213,7 @@ def register(request):
         queryset.update(status='d')
     deny_topup.short_description = 'Invalidasi Topup'
 ```
+
 - Tambahkan kedua method tersebut pada attribute ```actions```
 
 
